@@ -1,0 +1,61 @@
+body {
+    background-image: url(officeEX2.jpg);
+}
+
+.grid-container {
+    display: grid;
+}
+
+.Education {
+    grid-row: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.Expirience {
+    grid-row: 3;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.Name {
+    grid-row: 5;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.Degree {
+    grid-row: 1;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.Army {
+    grid-row: 3;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.Language {
+    grid-row: 5;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.Email {
+    grid-row: 30;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.Phone {
+    grid-row: 30;
+    grid-column-start: 8;
+    grid-column-end: 8;
+}
+
+.Address {
+    grid-row: 30;
+    grid-column-start: 16;
+    grid-column-end: 16;
+}
