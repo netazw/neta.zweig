@@ -10,7 +10,20 @@ body {
     grid-row: 1;
     grid-column-start: 2;
     grid-column-end: 2;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    animation-name: ex3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
+
+@keyframes ex3 {
+    0% {background-color: blueviolet;}
+    50% {background-color: yellow;}
+    100% {background-color: blueviolet;}
+    }
+    
 
 .Expirience {
     grid-row: 3;
